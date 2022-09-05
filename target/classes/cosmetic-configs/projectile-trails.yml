@@ -1,0 +1,46 @@
+BLACK_SMOKE:
+  currency: TOKENS
+  price: 100
+  permission: dtm.cosmetics.projectiletrail.blacksmoke
+  shop-not-bought:
+    material: FURNACE
+    item-name: "&cBlack Smoke"
+    lore:
+      - "&7Gives the black smoke"
+      - "&7projectile trail."
+      - ""
+      - "&7Cost:&2 100 tokens"
+      - ""
+      - "§eClick to purchase!"
+  shop-bought:
+    material: LIME_STAINED_GLASS_PANE
+    item-name: "&aBlack Smoke"
+    lore:
+      - "&7Gives the black smoke"
+      - "&7projectile trail."
+      - ""
+      - "§aAlready purchased!"
+  collection-locked:
+    material: RED_STAINED_GLASS_PANE
+    item-name: "&cBlack Smoke"
+    lore:
+      - "&7Selects the black smoke"
+      - "&7projectile trail."
+      - ""
+      - "&cLocked!"
+  collection-not-selected:
+    material: FURNACE
+    item-name: "&aBlack Smoke"
+    lore:
+      - "&7Selects the black smoke"
+      - "&7projectile trail."
+      - ""
+      - "&eClick to select!"
+  collection-selected:
+    material: FURNACE
+    item-name: "&aBlack Smoke"
+    lore:
+      - "&7Selects the black smoke"
+      - "&7projectile trail."
+      - ""
+      - "&aSelected!"

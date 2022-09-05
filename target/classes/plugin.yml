@@ -1,0 +1,11 @@
+main: net.straxidus.dtm.DTM
+name: DestroyTheMonument
+version: 1.0.0-ALPHA
+author: Plochem
+api-version: 1.18
+description: Custom DTM Plugin
+commands:
+  join:
+  leave:
+  dtmreload:
+# depend: [PermissionsEx]

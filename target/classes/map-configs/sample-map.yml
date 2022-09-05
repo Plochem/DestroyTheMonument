@@ -1,0 +1,124 @@
+# For enchantments, use the name of the enchant, but ONLY use lower case letters and replace spaces with underscores (_). Eg: "aqua_affinity"
+# For slot IDs, go to https://www.spigotmc.org/wiki/raw-slot-ids/ and click on the spoiler under "Player" to reveal an image
+# For item materials, refer to values from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# All leather armor will be automatically dyed to the team color. 
+# For potion effects, refer to values from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+
+
+name: "Boomerang"
+world_name: "Boomerang"
+max_players: 30
+author_uuids:
+  - "6b65230a-9833-4601-9f0a-b60db3c7bc9b"
+spawn: 
+  x: -56.5  
+  y: 39
+  z: -0.5
+  yaw: -90
+  pitch: 0
+teamA:
+  name: "TeamA"
+  team_color:
+    r: 255
+    g: 0
+    b: 0
+  spawn: 
+    x: -5
+    y: 30
+    z: 17
+    yaw: 50
+    pitch: 100
+  monuments:
+    - name: "Core"
+      x: 10
+      y: 7
+      z: -10
+    - name: "Back"
+      x: 20
+      y: 7
+      z: -10
+teamB:
+  name: "TeamB"
+  team_color:
+    r: 0
+    g: 255
+    b: 0
+  spawn: 
+    x: -5
+    y: 30
+    z: 17
+    yaw: 50
+    pitch: 100
+  monuments:
+    - name: "Core"
+      x: 10
+      y: 7
+      z: -10
+    - name: "Back"
+      x: 20
+      y: 7
+      z: -10
+
+loadout: 
+  - material: LEATHER_HELMET
+    item_name: "&3Cool helm"
+    amount: 1
+    enchants:
+      - DURABILITY: 3
+    lore: 
+      - "Test Lore"
+      - "Line 2" 
+    slot: 5
+  - material: LEATHER_CHESTPLATE
+    item_name: "&aCHESTPLATE YEEE"
+    amount: 1
+    enchants:
+      - DURABILITY: 1
+      - PROTECTION_ENVIRONMENTAL: 3
+    lore: 
+      - "Test Lore"
+      - "Line 2"
+    slot: 6
+  - material: DIAMOND_LEGGINGS
+    amount: 1
+    slot: 7
+  - material: STONE_SWORD
+    amount: 1
+    durability: 10
+    item_name: "&3Cool sword"
+    enchants:
+      - DURABILITY: 1
+      - DAMAGE_ALL: 2
+    lore: 
+      - "Test Lore"
+      - "Line 2" 
+    slot: 36
+  - material: BOW
+    amount: 1
+    item_name: "&k;&eyay bow&r&k;"
+    enchants:
+      - DURABILITY: 1
+      - DAMAGE_ALL: 2
+    lore: 
+      - "Test Lore bow"
+      - "Line 2 yee" 
+    slot: 37
+  - material: ARROW
+    amount: 64
+    slot: 27
+  - material: STONE
+    amount: 32
+    slot: 38
+  - material: POTION
+    item_name: "sick &dpotion"
+    amount: 1
+    effect: 
+      - type: REGENERATION
+        duration: 30
+        amplifier: 2
+      - type: SPEED
+        duration: 10
+        amplifier: 3
+    slot: 39  
+    lore:
+      - "&elooooooooorrrrrrreeeeeeeeee"

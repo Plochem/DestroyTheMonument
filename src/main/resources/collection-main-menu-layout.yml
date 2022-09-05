@@ -1,0 +1,45 @@
+PROJECTILE_TRAIL:
+  material: ARROW
+  item-name: "&aProjectile Trails"
+  lore:
+    - "&7Change the trail effect to display"
+    - "&7behind all your projectiles."
+    - ""
+    - "&eClick to view!"
+  slot: 10
+KILL_EFFECT:
+  material: BONE
+  item-name: "&aKill Effects"
+  lore:
+    - "&7Change the effect and message to"
+    - "&7display after eliminating a player."
+    - ""
+    - "&eClick to view!"
+  slot: 12
+DEATH_SOUND:
+  material: GHAST_TEAR
+  item-name: "&aDeath Sounds"
+  lore:
+    - "&7Change the sound to play"
+    - "&7whenever you die."
+    - ""
+    - "&eClick to view!"
+  slot: 14
+MONUMENT_DESTROYED_EFFECT:
+  material: OBSIDIAN
+  item-name: "&aMonument Destruction Effects"
+  lore:
+    - "&7Change the effect to display after"
+    - "&7destroying the enemy's monument."
+    - ""
+    - "&eClick to view!"
+  slot: 16
+TRAIL_EFFECT:
+  material: STRING
+  item-name: "&aTrail Effects"
+  lore:
+    - "&7Change the effect to display"
+    - "&7whenever you move."
+    - ""
+    - "&eClick to view!"
+  slot: 29

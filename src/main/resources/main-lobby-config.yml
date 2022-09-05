@@ -1,0 +1,31 @@
+spawn-location:
+  world-name: "hub"
+  x: -791.5
+  y: 11
+  z: -1604
+  yaw: 180
+  pitch: 0
+shop-item:
+  material: EMERALD
+  item-name: "&aShop"
+  lore:
+    - ""
+    - "&7Right click the item"
+    - "&7to view the shop"
+  slot: 4
+gamelist-item:
+  material: CLOCK
+  item-name: "&aGame List"
+  lore:
+    - ""
+    - "&7Right click the item to"
+    - "&7view the current games"
+  slot: 1
+collection-item:
+  material: CHEST
+  item-name: "&aCollection"
+  lore:
+    - ""
+    - "&7Right click the item to"
+    - "&7view your cosmetic collection"
+  slot: 7
